@@ -1,9 +1,12 @@
 import "./App.css";
+import Contact from "./componets/Contact";
+import Services from "./componets/Services";
 
 function App() {
   return (
     <div>
-      <h1>Mantasha</h1>
+      <Services />
+      <Contact />
     </div>
   );
 }
