@@ -3,12 +3,12 @@ import shin from "../images/services/shinra.png";
 import paint from "../images/services/paint.png";
 
 function Services() {
-  const services = {
-    service1: ["Bricklaying", paint],
-    service2: ["Capentry", shin],
-    service3: ["Electrical", shin],
-    service4: ["Waterproofing", shin],
-  };
+  const services = [
+    { name: "Bricklaying", img: paint },
+    { name: "Capentry", img: shin },
+    { name: "Electrical", img: shin },
+    { name: "Waterproofing", img: shin },
+  ];
 
   // ["Bricklaying", "Capentry", "Electrical", "Waterproofing"]
 
@@ -18,7 +18,15 @@ function Services() {
       <h3>Here is a trail of what we do:</h3>
 
       <div className="services__container">
-        <div className="services__container-service">
+        {services.map((service) => (
+          <div className="services__container-service">
+            <div className="img">
+              <img src={service.img} alt="Bricklaying" />
+            </div>
+            <span>{service.name}</span>
+          </div>
+        ))}
+        {/* <div className="services__container-service">
           <div className="img">
             <img src={services.service1[1]} alt="Bricklaying" />
           </div>
@@ -44,7 +52,7 @@ function Services() {
             <img src={services.service4[1]} alt="Bricklaying" />
           </div>
           <span>{services.service4[0]}</span>
-        </div>
+        </div> */}
       </div>
       {/* < */}
     </div>
