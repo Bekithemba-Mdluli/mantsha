@@ -1,0 +1,139 @@
+/* Hero */
+.hero {
+  position: relative;
+  width: 100%;
+  /* margin: auto; */
+  /* height: 600px; */
+}
+
+.hero__item h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+  /* color: #1b1b1b; */
+}
+
+.hero__item img {
+  height: 600px;
+  filter: brightness(40%);
+  object-fit: fill;
+}
+
+.hero__item p {
+  width: 35%;
+  line-height: 25px;
+  margin-bottom: 50px;
+  font-weight: 400;
+  font-size: 22px;
+}
+
+.hero__item a {
+  color: #fff;
+  text-decoration: none;
+  background-color: #002fd6;
+  padding: 10px 25px;
+  font-weight: 500;
+  border-radius: 5px;
+}
+
+.hero__item-text {
+  position: absolute;
+  color: #fff;
+  /* font-size: 25px; */
+  padding: 8px 12px;
+  top: 30%;
+  left: 10%;
+  /* margin-inline: 10%; */
+  width: 100%;
+  /* text-align: center; */
+}
+
+.hNav {
+  position: absolute;
+  bottom: 15px;
+  text-align: center;
+  /* left: 45%; */
+  width: 100%;
+  text-align: center;
+}
+
+.hNav__line {
+  display: inline-block;
+  cursor: pointer;
+  height: 6px;
+  width: 30px;
+  margin: 0 6px;
+  background-color: #d9d9d9;
+
+  transition: background-color 0.6s ease;
+  /* bottom: 40px; */
+  text-align: center;
+}
+
+.act {
+  background-color: #1f00d6;
+}
+
+@media only screen and (max-width: 980px) {
+  .hero__item img {
+    height: 490px;
+  }
+
+  .hero__item h1 {
+    font-size: 36px;
+  }
+
+  .hero__item p {
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 20px;
+    /* width: 80%; */
+    width: 50%;
+  }
+
+  .hero__item a {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+
+  .hero__item-text {
+    padding: 8px 12px;
+  }
+}
+
+/* Large mobile*/
+@media only screen and (max-width: 425px) {
+  .hero__item img {
+    height: 390px;
+    /* filter: brightness(40%); */
+    object-fit: cover;
+  }
+
+  .hero__item h1 {
+    font-size: 24px;
+    text-align: center;
+    width: 80%;
+  }
+
+  .hero__item p {
+    width: 80%;
+    text-align: center;
+  }
+
+  .hero__item a {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    font-size: 16px;
+  }
+
+  .hero__item-text {
+    top: 18%;
+  }
+}
+
+/* Small Mobile */
+@media only screen and (max-width: 425px) {
+  .hero__item-text {
+    top: 15%;
+  }
+}

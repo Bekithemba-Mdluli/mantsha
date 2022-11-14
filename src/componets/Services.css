@@ -1,0 +1,42 @@
+/* Services */
+
+.services {
+  margin-inline: 10%;
+  margin-bottom: 50px;
+  margin-top: 40px;
+}
+
+h2 {
+  font-size: 40px;
+  text-align: center;
+  color: #0d014d;
+}
+
+.services h3 {
+  margin-bottom: 50px;
+  color: #0d014d;
+  margin-top: 30px;
+}
+
+.services__container {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  text-align: center;
+  font-weight: 600;
+  /* cursor: grab; */
+  overflow: auto;
+  /* overflow: hidden; */
+}
+
+.img {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 30px;
+}
+
+.img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}

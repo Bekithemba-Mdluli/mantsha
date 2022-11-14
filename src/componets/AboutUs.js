@@ -1,15 +1,17 @@
 import React from "react";
 import shin from "../images/services/shinra.png";
 
-function Contact() {
+import "./AboutUs.css";
+
+function aboutus() {
   return (
-    <div className="contact">
-      <div className="contactCon">
+    <div className="aboutus" id="aboutus">
+      <div className="aboutusCon">
         <hr className="hr" />
         <h2>About us.</h2>
 
-        <div className="contact__container">
-          <div className="contact__container-card">
+        <div className="aboutus__container">
+          <div className="aboutus__container-card">
             <div className="imgg">
               <img src={shin} alt="Sample" />
             </div>
@@ -21,7 +23,7 @@ function Contact() {
             </p>
           </div>
 
-          <div className="contact__container-card odd">
+          <div className="aboutus__container-card odd">
             <div className="imgg">
               <img src={shin} alt="Sample" />
             </div>
@@ -39,4 +41,4 @@ function Contact() {
   );
 }
 
-export default Contact;
+export default aboutus;
