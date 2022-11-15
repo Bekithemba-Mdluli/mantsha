@@ -6,6 +6,10 @@
   /* height: 600px; */
 }
 
+.hero__item {
+  width: 100%;
+}
+
 .hero__item h1 {
   font-size: 48px;
   margin-bottom: 20px;
@@ -43,7 +47,6 @@
   top: 30%;
   left: 10%;
   /* margin-inline: 10%; */
-  width: 100%;
   /* text-align: center; */
 }
 
