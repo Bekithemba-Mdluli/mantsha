@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/mantsha/static/css/main.d2ba7efd.css",
+    "main.js": "/mantsha/static/js/main.8841c9b2.js",
+    "static/js/787.b9c063bc.chunk.js": "/mantsha/static/js/787.b9c063bc.chunk.js",
+    "static/media/building.jpg": "/mantsha/static/media/building.b06e13779cac54bef3c7.jpg",
+    "static/media/painting.jpg": "/mantsha/static/media/painting.712bfea947dd40894cb2.jpg",
+    "static/media/foundation.jpg": "/mantsha/static/media/foundation.a735b8ece2046fbe6de4.jpg",
+    "static/media/cons.jpg": "/mantsha/static/media/cons.b3e4542fa782eadb7e40.jpg",
+    "static/media/shinra.png": "/mantsha/static/media/shinra.be5849e8bb1bff1a2ea6.png",
+    "static/media/paint.png": "/mantsha/static/media/paint.ff1f1192d93c41506c7f.png",
+    "index.html": "/mantsha/index.html",
+    "main.d2ba7efd.css.map": "/mantsha/static/css/main.d2ba7efd.css.map",
+    "main.8841c9b2.js.map": "/mantsha/static/js/main.8841c9b2.js.map",
+    "787.b9c063bc.chunk.js.map": "/mantsha/static/js/787.b9c063bc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d2ba7efd.css",
+    "static/js/main.8841c9b2.js"
+  ]
+}
