@@ -1,24 +1,25 @@
 {
   "files": {
-    "main.css": "/mantsha/static/css/main.dca31788.css",
-    "main.js": "/mantsha/static/js/main.8db47d14.js",
+    "main.css": "/mantsha/static/css/main.5ba74b5f.css",
+    "main.js": "/mantsha/static/js/main.5a160032.js",
     "static/js/787.b9c063bc.chunk.js": "/mantsha/static/js/787.b9c063bc.chunk.js",
-    "static/media/cons.jpg": "/mantsha/static/media/cons.b3e4542fa782eadb7e40.jpg",
     "static/media/building.jpg": "/mantsha/static/media/building.c91659501efd4fd36fd6.jpg",
     "static/media/foundation.jpg": "/mantsha/static/media/foundation.0a9396c915bf3d22c5db.jpg",
     "static/media/painting.jpg": "/mantsha/static/media/painting.105eaf002e2fc96d2f0f.jpg",
-    "static/media/shinra.png": "/mantsha/static/media/shinra.be5849e8bb1bff1a2ea6.png",
+    "static/media/cons.jpg": "/mantsha/static/media/cons.88b7fe946d8fdb36702d.jpg",
+    "static/media/brick.png": "/mantsha/static/media/brick.a9f23a32a79124f578ad.png",
     "static/media/paint.png": "/mantsha/static/media/paint.ff1f1192d93c41506c7f.png",
+    "static/media/cap.png": "/mantsha/static/media/cap.92caae318f0b4f442da7.png",
     "static/media/icon-whatsapp.svg": "/mantsha/static/media/icon-whatsapp.c373e8b15622666b45fe20d4b30f6f7f.svg",
     "index.html": "/mantsha/index.html",
     "static/media/icon-linkedin.svg": "/mantsha/static/media/icon-linkedin.158056716524568902b42f8cddbad653.svg",
     "static/media/icon-facebook.svg": "/mantsha/static/media/icon-facebook.fe2af45191f52a82e2854f3e750b8d01.svg",
-    "main.dca31788.css.map": "/mantsha/static/css/main.dca31788.css.map",
-    "main.8db47d14.js.map": "/mantsha/static/js/main.8db47d14.js.map",
+    "main.5ba74b5f.css.map": "/mantsha/static/css/main.5ba74b5f.css.map",
+    "main.5a160032.js.map": "/mantsha/static/js/main.5a160032.js.map",
     "787.b9c063bc.chunk.js.map": "/mantsha/static/js/787.b9c063bc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dca31788.css",
-    "static/js/main.8db47d14.js"
+    "static/css/main.5ba74b5f.css",
+    "static/js/main.5a160032.js"
   ]
 }
