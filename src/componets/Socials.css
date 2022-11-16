@@ -1,0 +1,39 @@
+.socials {
+  /* background-color: green; */
+  position: fixed;
+  right: 0;
+  top: 40%;
+}
+
+.socials__item:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+.socials__item {
+  cursor: pointer;
+  transition: 0.6s;
+  /* width: 50px; */
+  padding: 5px;
+}
+
+/* .socials__item {
+  width: 40px;
+  height: 40px;
+} */
+
+.socials__item:hover {
+  border-radius: 10px 0px 0px 10px;
+}
+
+.fb:hover {
+  background-color: #039be5;
+}
+
+.li:hover {
+  /* position: relative; */
+  background-color: #0288d1;
+}
+
+.wa:hover {
+  background-color: #40c351;
+}
