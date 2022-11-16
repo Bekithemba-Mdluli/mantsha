@@ -1,5 +1,5 @@
 import React from "react";
-import shin from "../images/services/shinra.png";
+import shin from "../images/services/cons.jpg";
 
 import "./AboutUs.css";
 
