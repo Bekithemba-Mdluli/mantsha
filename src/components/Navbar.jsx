@@ -1,21 +1,53 @@
-import React from "react";
-import Logo from "./images/Logo.svg";
+import { Component } from "react";
+import logo from "./images/logo2.svg";
 
-function Navbar() {
+class Navbar extends Component {
+  state = { clicked: false };
+  handleClick = () => {
+    this.setState({ clicked: !this.state.clicked });
+  };
+  render() {
     return (
-      <div className='navbarContainer'>
-        <div className='navBox'>
-            <p className="mountingLogo">
-                <img src={Logo} alt="My Logo" />
-            </p>
-        </div>
-        <div className='navBox'>Home</div>
-        <div className='navBox'>About Us</div>        
-        <div className='navBox'>Contact Us</div>
-        <div className='navBox'>Email icon</div>
-        <div className='navBox'>Call icon</div>
-      </div>
-    )
+      <>
+        <nav>
+          <a href="index.html">
+                {/* {" "} */}
+            <img src={logo} alt="My logo" width="100%" height="100%" viewBox="0 0 10 10" className="ccustom" fill="0A003C" object-fit="contain">
+            </img>
+          </a>
+
+          <div>
+            <ul
+              id="navbar"
+              className={this.state.clicked ? "#navbar active" : "#navbar"}
+            >
+              <li>
+                <a className="active" href="index.html">
+                  Home
+                </a>
+              </li>
+              <li>
+                <a href="index.html">About</a>
+              </li>
+              <li>
+                <a href="index.html">Products</a>
+              </li>
+              <li>
+                <a href="index.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+
+          <div id="mobile" onClick={this.handleClick}>
+            <i
+              id="bar"
+              className={this.state.clicked ? "fas fa-times" : "fas fa-bars"}
+            ></i>
+          </div>
+        </nav>
+      </>
+    );
   }
-  
-  export default Navbar
+}
+
+export default Navbar;

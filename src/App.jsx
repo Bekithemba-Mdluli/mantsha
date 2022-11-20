@@ -1,27 +1,27 @@
-import "./App.css";
-import React from 'react';
-import Footer from './components/Footer';
-import ContactPage from './components/ContactPage';
-import Test2 from './components/Test2';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import ErrorPage from './components/ErrorPage';
+import './App.css';
+import Navbar from "./components/Navbar";
+import ContactPage from './components/ContactPage.jsx';
+import Footer from './components/Footer.jsx';
+// import ErrorPage404 from './components/errors/ErrorPage404';
+// import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
-const App = ()=>{
+function App() {
   return (
-    <Router>
-      <div>
-        {/* <h1>Contact Us.</h1> */}
-        {/* <Nav /> */}
+    <div className="App">
+          <Navbar />
+          <ContactPage />
+          <Footer />
+      {/* <BrowserRouter>
         <Routes>
-          <Route path='/' element={<ContactPage />} />
-          <Route path='/ContactPage' element={<ContactPage />} />
-          {/* <Route path='/Footer' element={<Footer />} /> */}
-          <Route path='/*' element={<ErrorPage />} />
+          <Route path="/" element={<ContactPage />}>
+          <Route index element={<ContactPage />} />
+          <Route path="/components/Navbar" element={<Navbar />} />
+          <Route path="*" element={<ErrorPage404 />} />
+          </Route>
         </Routes>
-        <Footer />
-      </div>
-    </Router>
+      </BrowserRouter> */}
+    </div>
   );
 }
 
-export default App;
+export default App
